@@ -25,7 +25,9 @@ npm run start
 
 
 ## Live Demonstration
-[You can view this app in production here](https://booktrading1234.herokuapp.com/)
+[You can view this app in production here] (https://booktrading1234.herokuapp.com/)
+
+[] https://book-trading-1234.glitch.me/
 
 
 ## Authentication
@@ -36,7 +38,7 @@ Once a user has created a new account. They have the option of updating their pr
 
 ## Screenshots
 Here is the home page of the FCC Book Trading Club application.
-![Book Trading Club Homepage](https://ibb.co/h5d5k7)
+![Book Trading Club Homepage](https://image.ibb.co/kuOGsn/Capture199.png)
 
 ## Here are the user stories i have implemented:
 
