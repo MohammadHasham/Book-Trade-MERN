@@ -1,0 +1,65 @@
+{
+	"name": "client",
+	"version": "0.1.0",
+	"private": true,
+	"proxy": {
+		"/login": {
+			"target": "http://localhost:5000"
+		},
+		"/signout": {
+			"target": "http://localhost:5000"
+		},
+		"/register": {
+			"target": "http://localhost:5000"
+		},
+		"/api/updatePassword": {
+			"target": "http://localhost:5000"
+		},
+		"/api/updateProfile": {
+			"target": "http://localhost:5000"
+		},
+		"/api/addBooks": {
+			"target": "http://localhost:5000"
+		},
+		"/api/allBooks": {
+			"target": "http://localhost:5000"
+		},
+		"/api/request": {
+			"target": "http://localhost:5000"
+		},
+		"/api/getPendingRequests": {
+			"target": "http://localhost:5000"
+		},
+		"/api/approve": {
+			"target": "http://localhost:5000"
+		},
+		"/api/getuser": {
+			"target": "http://localhost:5000"
+		},
+		"/api/getMyRequests": {
+			"target": "http://localhost:5000"
+		},
+		"/api/cancelrequest": {
+			"target": "http://localhost:5000"
+		},
+		"/api/cancelpendingrequest": {
+			"target": "http://localhost:5000"
+		},
+		"/api/currentbooks": {
+			"target": "http://localhost:5000"
+		}
+	},
+	"dependencies": {
+		"react": "^16.2.0",
+		"react-dom": "^16.2.0",
+		"react-router-dom": "^4.2.2",
+		"react-scripts": "1.1.1",
+		"redux-thunk": "^2.2.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	}
+}
