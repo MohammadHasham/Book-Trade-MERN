@@ -27,7 +27,7 @@ npm run start
 ## Live Demonstration
 [You can view this app in production here] (https://booktrading1234.herokuapp.com/)
 
-[] https://book-trading-1234.glitch.me/
+- [] https://book-trading-1234.glitch.me/
 
 
 ## Authentication
